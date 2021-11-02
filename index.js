@@ -1,3 +1,4 @@
+const form = document.querySelector("form");
 /**
  * @const {} inputs Tous les inputs sauf le bouton submit
  */
@@ -102,4 +103,26 @@ inputs.forEach((input) => {
     }
     e.target.id;
   });
+});
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  if (pseudo && email && password && confirmPass) {
+    const data = {
+      pseudo,
+      email,
+      password,
+    };
+    console.log(data);
+    alert("Inscription validé !");
+    form.reset();
+    pseudo = null;
+    email = null;
+    password = null;
+    confirmPass = null;
+    progressBar.classList = "";
+  } else {
+    alert("Veuillez remplir correctement les champs");
+  }
 });
