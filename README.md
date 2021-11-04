@@ -2,11 +2,10 @@
 
 @author: [DevWeb13](https://twitter.com/DeveloppementW1)
 
-Développement d'un formulaire avec vérification des données d'entrée de l'utilisateur, affichage du message d'erreur. 
-Si les données sont validées, on les récupère dans un objet et on réinitialise le formulaire.
+Development of a form with verification of the user's input data, display of the error message. If the data is validated, it is retrieved in an object and the form is reset.
 
-Réalisé grace au tutoriel YouTube: ["[Cours Javascript] Apprendre Javascript de A à Z – Les données (3/6)"](https://www.youtube.com/watch?v=5l_agaIkbKo&list=PLEiMYEzpB4QuS8AXU9eAz1aw_WBknPn1E&index=3) de ["From Scratch()"]( https://twitter.com/KobeKenjo).
+Realized thanks to the YouTube tutorial: ["[Cours Javascript] Apprendre Javascript de A à Z – Les données (3/6)"](https://www.youtube.com/watch?v=5l_agaIkbKo&list=PLEiMYEzpB4QuS8AXU9eAz1aw_WBknPn1E&index=3) of ["From Scratch()"]( https://twitter.com/KobeKenjo).
 
-Un grand merci a lui!!
+A big thank you to him!!
 
-# [SITE FINAL](https://devweb13.github.io/formulaire/)
+# [FINAL SITE](https://devweb13.github.io/formulaire/)
